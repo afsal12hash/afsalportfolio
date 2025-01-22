@@ -67,7 +67,7 @@ export const services = [
 
 export const projects = [
   {
-    title: "AI Powered School",
+    title: " 3D Portfolio",
     image: project1,
     category: "JavaScript",
     description: `I am a  web developer with expertise in HTML, CSS, and JavaScript crafting engaging and responsive front-end designs.
