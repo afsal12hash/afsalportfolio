@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillLinkedin, AiTwotoneMail } from "react-icons/ai";
 import { FaCodeCompare } from "react-icons/fa6";
 import { GiIdea } from "react-icons/gi";
 import { MdOutlineEmail } from "react-icons/md";
-import { RiLinkedinFill,  } from "react-icons/ri";
+import { RiLinkedinFill } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 import {
   project1,
@@ -69,13 +69,18 @@ export const projects = [
   {
     title: "AI Powered School",
     image: project1,
-    category: "UI/UX",
-    description: `Transforming education with AI, our School UI Design project revolutionizes the 
-                     learning experience. Seamlessly integrating intelligent features, personalized interfaces, 
-                     and intuitive navigation, our design empowers educators and students alike. Experience 
-                     innovation at its finest as we pave the way for a smarter, more efficient educational 
-                     journey.`,
-    demoLink: "https://github.com/afsal12hash/designport",
+    category: "JavaScript",
+    description: `I am a  web developer with expertise in HTML, CSS, and JavaScript crafting engaging and responsive front-end designs.
+
+
+
+
+
+
+
+`,
+    demoLink:
+      "https://afsalahamedportfolio3d-60033967713.development.catalystserverless.in/app/",
     stacks: [
       {
         name: "ReactJs",
@@ -88,18 +93,14 @@ export const projects = [
       {
         name: "CSS",
         logo: css,
-      }
+      },
     ],
   },
   {
-    title: "E-Commerce Application",
+    title: "Gsap Animation Website",
     image: project2,
-    category: "Web",
-    description: `Enhance your online shopping experience with our E-Commerce Application 
-      UI design project. Seamlessly blending aesthetics with functionality, our intuitive 
-      interface offers easy navigation, personalized recommendations, and secure 
-      transactions. Elevate your digital storefront and captivate customers with a visually 
-      stunning design tailored to your brand`,
+    category: "React.js/Gsap",
+    description: `Creating dynamic and immersive web experiences using GSAP (GreenSock Animation Platform).`,
     demoLink: "https://3danimationwebsite.vercel.app/",
     stacks: [
       {
@@ -107,7 +108,6 @@ export const projects = [
         logo: react,
       },
 
-     
       {
         name: "JavaScript",
         logo: javascript,
@@ -115,18 +115,14 @@ export const projects = [
       {
         name: "Tailwind",
         logo: tailwind,
-      }
+      },
     ],
   },
   {
-    title: "Robotic Engineering Web Application",
+    title: "Fanta Web ",
     image: project3,
-    category: "Web",
-    description: `Unlock the future of robotics with our Robotic Engineering Web Application
-      project. Seamlessly integrating cutting-edge technology, data analytics, 
-      and collaborative tools, our platform empowers engineers to design, simulate, 
-      and optimize robotic systems. Experience innovation at its peak as we redefine the 
-      boundaries of robotic engineering.`,
+    category: "React.js/Tailwind",
+    description: `The "Fanta" Project in could be described as a modern, dynamic web application built using React.js creating responsive user interfaces.`,
     demoLink: "https://fantasam.vercel.app/",
     stacks: [
       {
@@ -141,16 +137,16 @@ export const projects = [
       {
         name: "Tailwind",
         logo: tailwind,
-      }
+      },
     ],
   },
   {
-    title: "Project Management application",
+    title: "Taxi Booking Design",
     image: project4,
-    category: "Apps",
-    description: `Simplify project coordination with our intuitive Project Management application. Track tasks, collaborate in real-time, and streamline workflows effortlessly. With customizable features and robust reporting, stay organized and efficient.
-                     Elevate your project management experience and achieve success with ease.`,
-    demoLink: "https://taxibookingdesignweb-60033967713.development.catalystserverless.in/app/index.html",
+    category: "JavaScript",
+    description: `A taxi website built with HTML, CSS, and JavaScript offers a user-friendly platform for booking rides with an intuitive interface and responsive design.`,
+    demoLink:
+      "https://taxibookingdesignweb-60033967713.development.catalystserverless.in/app/index.html",
     stacks: [
       {
         name: "JavaScript",
@@ -160,14 +156,14 @@ export const projects = [
       {
         name: "CSS",
         logo: css,
-      }
+      },
     ],
   },
   {
-    title: "Mobile bank - App Design",
+    title: "Card 3D Moving Web",
     image: project5,
-    category: "UI/UX",
-    description: `Experience banking at your fingertips with our sleek Mobile Bank app design. Seamlessly manage your finances on-the-go with intuitive navigation, secure transactions, and personalized insights. Enjoy a modern interface that prioritizes convenience and accessibility, revolutionizing your banking experience.`,
+    category: "JavaScript",
+    description: `A 3D car movement website built with HTML, CSS, and JavaScript provides an interactive  and visually engaging animations.`,
     demoLink: "https://cars-eight-sable.vercel.app/",
     stacks: [
       {
@@ -178,20 +174,15 @@ export const projects = [
       {
         name: "CSS",
         logo: css,
-      }
+      },
     ],
   },
   {
-    title: "Quiz App Development",
+    title: "Coffee Shop website",
     image: project6,
-    category: "Apps",
-    description: `Elevate engagement and knowledge retention with our Quiz App 
-                    Development project. Seamlessly crafted for interactive learning 
-                    experiences, our app offers customizable quizzes, real-time feedback, 
-                    and captivating visuals. Empower users to test their knowledge anytime,
-                     anywhere, fostering a dynamic learning environment tailored to their 
-                     needs.`,
-    demoLink : "https://coffeeshopweb.vercel.app/",
+    category: "JavaScript",
+    description: `A coffee shop website built with HTML, CSS, and JavaScript  to explore the menu, location, and online orders with a stylish design.`,
+    demoLink: "https://coffeeshopweb.vercel.app/",
     stacks: [
       {
         name: "JavaScript",
@@ -201,7 +192,7 @@ export const projects = [
       {
         name: "CSS",
         logo: css,
-      }
+      },
     ],
   },
 ];
@@ -274,7 +265,6 @@ export const contactInfo = [
   },
 ];
 export const socialHandles = [
- 
   {
     name: "Github",
     icon: <AiFillGithub />,
